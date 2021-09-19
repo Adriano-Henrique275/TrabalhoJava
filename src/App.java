@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Dri é o cara");
+        Cliente cliente = new Cliente();
+
+        cliente.setNome("teste");
+
+        System.out.println(cliente.getNome());
     }
 }
