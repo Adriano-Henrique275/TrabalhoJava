@@ -1,18 +1,38 @@
-## Getting Started
+# Controle de Transações
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Vence 20 de setembro de 2021 23:59Fecha 20 de setembro de 2021 23:59
+---
 
-## Folder Structure
+## Instruções
+> 
+> Desenvolva um controle de transações onde cada cliente possui uma conta com seus dados.
+>
+> A cada operação realizada pelo cliente, uma transação é criada e associada à sua respectiva conta.
+> Cada transação possui um tipo (compra a vista, compra parcelada, saque ou pagamento), um valor e uma data de criação.
+> Transações de tipo ​compra e saque são registradas com ​valor negativo​, enquanto transações de ​pagamento​ são registradas com ​valor positivo​. 
+---
+## Regras
+>
+> Desenvolva um sistema considerando as regras acima. Utilize os conceitos vistos em aula como a herança, interface e tratamento de erros. No final apresente um código funcional com uma classe de teste. Crie junto ao projeto um arquivo chamado README.txt e, dentro dele, escreva um texto explicando os conceitos aplicados e por que.
 
-The workspace contains two folders by default, where:
+---
+## No sistema é esperado:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+> Vários tipos de conta
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+> Uma classe que controle as transações
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Um relatório mostrando o histórico de todas as transações por cliente
 
-## Dependency Management
+> Um relatório mostrando todas as transações de todos os clientes
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> O saldo do cliente
+
+
+> Faça uma classe de teste mostrando as funcionalidades desenvolvidas.
+
+---
+**Códigos iguais ou que não estejam funcionando não serão aceitos**
+
+---
+## Relatório do aluno:
